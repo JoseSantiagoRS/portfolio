@@ -6,12 +6,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+:root{
+    --cor1:#e4ec7c;
+}
+
 /*HEADER*/
 
 .header-container {
     height: 100vh;
     width: 100%;
-    background-color: #ec7c8e;
+    background-color: var(--cor1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -182,12 +186,12 @@ a:hover{
 }
 
 .menu-items a:hover{
-    background-color: #ec7c8e;
+    background-color: var(--cor1);
     border-radius: 5px;
 }
 
 .menu-items a:active{ 
-    background-color: #ec7c8e;
+    background-color: var(--cor1);
     border-radius: 5px;
 }
 
