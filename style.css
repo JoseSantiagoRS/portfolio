@@ -7,7 +7,7 @@ body {
 }
 
 :root{
-    --cor1:#7cc3ec;
+    --cor1:#69140e;
 }
 
 /*HEADER*/
@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center ;
     box-sizing: border-box;
     padding: 0 112px;
     position: relative;
