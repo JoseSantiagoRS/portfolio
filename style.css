@@ -7,7 +7,7 @@ body {
 }
 
 :root{
-    --cor1:#E3C16F;
+    --cor1:#7b6fe39a;
 }
 
 /*HEADER*/
@@ -49,11 +49,12 @@ h2{
     text-decoration: none;
     color: black;
     padding: 1rem 4rem;
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.5s ease-in-out;
+    border-radius: 10%;
 }
 
 a:hover{
